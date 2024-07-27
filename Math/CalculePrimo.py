@@ -3,7 +3,7 @@
 inteiro = 2
 primos = [2]
 
-while inteiro < 1000000:
+while True:
     inteiro += 1
     primos.append(inteiro)
 
@@ -17,6 +17,3 @@ while inteiro < 1000000:
             #print(str(inteiro) + " não é promo!")
             del primos[-1]
             break
-
-
-print("CalculePrimo2.py")
