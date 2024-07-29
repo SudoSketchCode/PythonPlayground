@@ -10,10 +10,9 @@ while True:
     for operando in primos:
 
         if inteiro/2 <  operando:
-            print(str(inteiro) + " é promo!")
+            print(str(inteiro) + " é primo!")
             break
 
         if inteiro % operando == 0:
-            #print(str(inteiro) + " não é promo!")
             del primos[-1]
             break
