@@ -1,4 +1,8 @@
-#Procura e lista numeos primos.
+# Este código busca e lista números primos. 
+# O método consiste em encontrar divisores de um inteiro usando números primos já encontrados,
+# Os números primos utilizados devem ser menores do que a metade do inteiro em questão. 
+# O algoritmo funciona em um loop infinito, listando números primos cada vez maiores.
+
 
 inteiro = 2
 primos = [2]
